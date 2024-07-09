@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30BC2E942C3DAF3B00D7A2C9 /* WearHouseAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2E932C3DAF3B00D7A2C9 /* WearHouseAppApp.swift */; };
+		30BC2E962C3DAF3B00D7A2C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2E952C3DAF3B00D7A2C9 /* ContentView.swift */; };
+		30BC2E982C3DAF3C00D7A2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BC2E972C3DAF3C00D7A2C9 /* Assets.xcassets */; };
+		30BC2E9B2C3DAF3C00D7A2C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BC2E9A2C3DAF3C00D7A2C9 /* Preview Assets.xcassets */; };
+		30BC2EA52C3DAF3C00D7A2C9 /* WearHouseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2EA42C3DAF3C00D7A2C9 /* WearHouseAppTests.swift */; };
+		30BC2EAF2C3DAF3C00D7A2C9 /* WearHouseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2EAE2C3DAF3C00D7A2C9 /* WearHouseAppUITests.swift */; };
+		30BC2EB12C3DAF3C00D7A2C9 /* WearHouseAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2EB02C3DAF3C00D7A2C9 /* WearHouseAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30BC2EA12C3DAF3C00D7A2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30BC2E882C3DAF3B00D7A2C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30BC2E8F2C3DAF3B00D7A2C9;
+			remoteInfo = WearHouseApp;
+		};
+		30BC2EAB2C3DAF3C00D7A2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30BC2E882C3DAF3B00D7A2C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30BC2E8F2C3DAF3B00D7A2C9;
+			remoteInfo = WearHouseApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30BC2E902C3DAF3B00D7A2C9 /* WearHouseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WearHouseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BC2E932C3DAF3B00D7A2C9 /* WearHouseAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearHouseAppApp.swift; sourceTree = "<group>"; };
+		30BC2E952C3DAF3B00D7A2C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30BC2E972C3DAF3C00D7A2C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30BC2E9A2C3DAF3C00D7A2C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30BC2EA02C3DAF3C00D7A2C9 /* WearHouseAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WearHouseAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BC2EA42C3DAF3C00D7A2C9 /* WearHouseAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearHouseAppTests.swift; sourceTree = "<group>"; };
+		30BC2EAA2C3DAF3C00D7A2C9 /* WearHouseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WearHouseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BC2EAE2C3DAF3C00D7A2C9 /* WearHouseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearHouseAppUITests.swift; sourceTree = "<group>"; };
+		30BC2EB02C3DAF3C00D7A2C9 /* WearHouseAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearHouseAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30BC2E8D2C3DAF3B00D7A2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BC2E9D2C3DAF3C00D7A2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BC2EA72C3DAF3C00D7A2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30BC2E872C3DAF3B00D7A2C9 = {
+			isa = PBXGroup;
+			children = (
+				30BC2E922C3DAF3B00D7A2C9 /* WearHouseApp */,
+				30BC2EA32C3DAF3C00D7A2C9 /* WearHouseAppTests */,
+				30BC2EAD2C3DAF3C00D7A2C9 /* WearHouseAppUITests */,
+				30BC2E912C3DAF3B00D7A2C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30BC2E912C3DAF3B00D7A2C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30BC2E902C3DAF3B00D7A2C9 /* WearHouseApp.app */,
+				30BC2EA02C3DAF3C00D7A2C9 /* WearHouseAppTests.xctest */,
+				30BC2EAA2C3DAF3C00D7A2C9 /* WearHouseAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30BC2E922C3DAF3B00D7A2C9 /* WearHouseApp */ = {
+			isa = PBXGroup;
+			children = (
+				30BC2E932C3DAF3B00D7A2C9 /* WearHouseAppApp.swift */,
+				30BC2E952C3DAF3B00D7A2C9 /* ContentView.swift */,
+				30BC2E972C3DAF3C00D7A2C9 /* Assets.xcassets */,
+				30BC2E992C3DAF3C00D7A2C9 /* Preview Content */,
+			);
+			path = WearHouseApp;
+			sourceTree = "<group>";
+		};
+		30BC2E992C3DAF3C00D7A2C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30BC2E9A2C3DAF3C00D7A2C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30BC2EA32C3DAF3C00D7A2C9 /* WearHouseAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				30BC2EA42C3DAF3C00D7A2C9 /* WearHouseAppTests.swift */,
+			);
+			path = WearHouseAppTests;
+			sourceTree = "<group>";
+		};
+		30BC2EAD2C3DAF3C00D7A2C9 /* WearHouseAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30BC2EAE2C3DAF3C00D7A2C9 /* WearHouseAppUITests.swift */,
+				30BC2EB02C3DAF3C00D7A2C9 /* WearHouseAppUITestsLaunchTests.swift */,
+			);
+			path = WearHouseAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30BC2E8F2C3DAF3B00D7A2C9 /* WearHouseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BC2EB42C3DAF3C00D7A2C9 /* Build configuration list for PBXNativeTarget "WearHouseApp" */;
+			buildPhases = (
+				30BC2E8C2C3DAF3B00D7A2C9 /* Sources */,
+				30BC2E8D2C3DAF3B00D7A2C9 /* Frameworks */,
+				30BC2E8E2C3DAF3B00D7A2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WearHouseApp;
+			productName = WearHouseApp;
+			productReference = 30BC2E902C3DAF3B00D7A2C9 /* WearHouseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30BC2E9F2C3DAF3C00D7A2C9 /* WearHouseAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BC2EB72C3DAF3C00D7A2C9 /* Build configuration list for PBXNativeTarget "WearHouseAppTests" */;
+			buildPhases = (
+				30BC2E9C2C3DAF3C00D7A2C9 /* Sources */,
+				30BC2E9D2C3DAF3C00D7A2C9 /* Frameworks */,
+				30BC2E9E2C3DAF3C00D7A2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30BC2EA22C3DAF3C00D7A2C9 /* PBXTargetDependency */,
+			);
+			name = WearHouseAppTests;
+			productName = WearHouseAppTests;
+			productReference = 30BC2EA02C3DAF3C00D7A2C9 /* WearHouseAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30BC2EA92C3DAF3C00D7A2C9 /* WearHouseAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BC2EBA2C3DAF3C00D7A2C9 /* Build configuration list for PBXNativeTarget "WearHouseAppUITests" */;
+			buildPhases = (
+				30BC2EA62C3DAF3C00D7A2C9 /* Sources */,
+				30BC2EA72C3DAF3C00D7A2C9 /* Frameworks */,
+				30BC2EA82C3DAF3C00D7A2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30BC2EAC2C3DAF3C00D7A2C9 /* PBXTargetDependency */,
+			);
+			name = WearHouseAppUITests;
+			productName = WearHouseAppUITests;
+			productReference = 30BC2EAA2C3DAF3C00D7A2C9 /* WearHouseAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30BC2E882C3DAF3B00D7A2C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					30BC2E8F2C3DAF3B00D7A2C9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					30BC2E9F2C3DAF3C00D7A2C9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 30BC2E8F2C3DAF3B00D7A2C9;
+					};
+					30BC2EA92C3DAF3C00D7A2C9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 30BC2E8F2C3DAF3B00D7A2C9;
+					};
+				};
+			};
+			buildConfigurationList = 30BC2E8B2C3DAF3B00D7A2C9 /* Build configuration list for PBXProject "WearHouseApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30BC2E872C3DAF3B00D7A2C9;
+			productRefGroup = 30BC2E912C3DAF3B00D7A2C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30BC2E8F2C3DAF3B00D7A2C9 /* WearHouseApp */,
+				30BC2E9F2C3DAF3C00D7A2C9 /* WearHouseAppTests */,
+				30BC2EA92C3DAF3C00D7A2C9 /* WearHouseAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30BC2E8E2C3DAF3B00D7A2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BC2E9B2C3DAF3C00D7A2C9 /* Preview Assets.xcassets in Resources */,
+				30BC2E982C3DAF3C00D7A2C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BC2E9E2C3DAF3C00D7A2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BC2EA82C3DAF3C00D7A2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30BC2E8C2C3DAF3B00D7A2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BC2E962C3DAF3B00D7A2C9 /* ContentView.swift in Sources */,
+				30BC2E942C3DAF3B00D7A2C9 /* WearHouseAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BC2E9C2C3DAF3C00D7A2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BC2EA52C3DAF3C00D7A2C9 /* WearHouseAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BC2EA62C3DAF3C00D7A2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BC2EB12C3DAF3C00D7A2C9 /* WearHouseAppUITestsLaunchTests.swift in Sources */,
+				30BC2EAF2C3DAF3C00D7A2C9 /* WearHouseAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30BC2EA22C3DAF3C00D7A2C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30BC2E8F2C3DAF3B00D7A2C9 /* WearHouseApp */;
+			targetProxy = 30BC2EA12C3DAF3C00D7A2C9 /* PBXContainerItemProxy */;
+		};
+		30BC2EAC2C3DAF3C00D7A2C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30BC2E8F2C3DAF3B00D7A2C9 /* WearHouseApp */;
+			targetProxy = 30BC2EAB2C3DAF3C00D7A2C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30BC2EB22C3DAF3C00D7A2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30BC2EB32C3DAF3C00D7A2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30BC2EB52C3DAF3C00D7A2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WearHouseApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9XMG52C6SB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.WearHouseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30BC2EB62C3DAF3C00D7A2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WearHouseApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9XMG52C6SB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.WearHouseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30BC2EB82C3DAF3C00D7A2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9XMG52C6SB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.WearHouseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WearHouseApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WearHouseApp";
+			};
+			name = Debug;
+		};
+		30BC2EB92C3DAF3C00D7A2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9XMG52C6SB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.WearHouseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WearHouseApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WearHouseApp";
+			};
+			name = Release;
+		};
+		30BC2EBB2C3DAF3C00D7A2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9XMG52C6SB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.WearHouseAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WearHouseApp;
+			};
+			name = Debug;
+		};
+		30BC2EBC2C3DAF3C00D7A2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9XMG52C6SB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.WearHouseAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WearHouseApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30BC2E8B2C3DAF3B00D7A2C9 /* Build configuration list for PBXProject "WearHouseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BC2EB22C3DAF3C00D7A2C9 /* Debug */,
+				30BC2EB32C3DAF3C00D7A2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BC2EB42C3DAF3C00D7A2C9 /* Build configuration list for PBXNativeTarget "WearHouseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BC2EB52C3DAF3C00D7A2C9 /* Debug */,
+				30BC2EB62C3DAF3C00D7A2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BC2EB72C3DAF3C00D7A2C9 /* Build configuration list for PBXNativeTarget "WearHouseAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BC2EB82C3DAF3C00D7A2C9 /* Debug */,
+				30BC2EB92C3DAF3C00D7A2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BC2EBA2C3DAF3C00D7A2C9 /* Build configuration list for PBXNativeTarget "WearHouseAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BC2EBB2C3DAF3C00D7A2C9 /* Debug */,
+				30BC2EBC2C3DAF3C00D7A2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30BC2E882C3DAF3B00D7A2C9 /* Project object */;
+}
