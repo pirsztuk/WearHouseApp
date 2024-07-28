@@ -14,6 +14,12 @@
 		30BC2EA52C3DAF3C00D7A2C9 /* WearHouseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2EA42C3DAF3C00D7A2C9 /* WearHouseAppTests.swift */; };
 		30BC2EAF2C3DAF3C00D7A2C9 /* WearHouseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2EAE2C3DAF3C00D7A2C9 /* WearHouseAppUITests.swift */; };
 		30BC2EB12C3DAF3C00D7A2C9 /* WearHouseAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2EB02C3DAF3C00D7A2C9 /* WearHouseAppUITestsLaunchTests.swift */; };
+		30BC2F572C3FE9A900D7A2C9 /* CategoryTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2F562C3FE9A900D7A2C9 /* CategoryTile.swift */; };
+		30BC2F592C3FED5C00D7A2C9 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2F582C3FED5C00D7A2C9 /* CategoryList.swift */; };
+		30BC2F5D2C4113E400D7A2C9 /* ClothRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2F5C2C4113E400D7A2C9 /* ClothRow.swift */; };
+		30BC2F5F2C41149100D7A2C9 /* ClothList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2F5E2C41149100D7A2C9 /* ClothList.swift */; };
+		30BC2F612C41BF0E00D7A2C9 /* ClothDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2F602C41BF0E00D7A2C9 /* ClothDetail.swift */; };
+		30E714C72C51838500B48C2D /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E714C62C51838500B48C2D /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		30BC2EAA2C3DAF3C00D7A2C9 /* WearHouseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WearHouseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BC2EAE2C3DAF3C00D7A2C9 /* WearHouseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearHouseAppUITests.swift; sourceTree = "<group>"; };
 		30BC2EB02C3DAF3C00D7A2C9 /* WearHouseAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearHouseAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30BC2F562C3FE9A900D7A2C9 /* CategoryTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTile.swift; sourceTree = "<group>"; };
+		30BC2F582C3FED5C00D7A2C9 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		30BC2F5C2C4113E400D7A2C9 /* ClothRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothRow.swift; sourceTree = "<group>"; };
+		30BC2F5E2C41149100D7A2C9 /* ClothList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothList.swift; sourceTree = "<group>"; };
+		30BC2F602C41BF0E00D7A2C9 /* ClothDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothDetail.swift; sourceTree = "<group>"; };
+		30E714C62C51838500B48C2D /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				30BC2E922C3DAF3B00D7A2C9 /* WearHouseApp */,
+				30BC2E972C3DAF3C00D7A2C9 /* Assets.xcassets */,
 				30BC2EA32C3DAF3C00D7A2C9 /* WearHouseAppTests */,
 				30BC2EAD2C3DAF3C00D7A2C9 /* WearHouseAppUITests */,
 				30BC2E912C3DAF3B00D7A2C9 /* Products */,
@@ -94,9 +107,10 @@
 		30BC2E922C3DAF3B00D7A2C9 /* WearHouseApp */ = {
 			isa = PBXGroup;
 			children = (
+				30E714C52C51836C00B48C2D /* Helper */,
 				30BC2E932C3DAF3B00D7A2C9 /* WearHouseAppApp.swift */,
-				30BC2E952C3DAF3B00D7A2C9 /* ContentView.swift */,
-				30BC2E972C3DAF3C00D7A2C9 /* Assets.xcassets */,
+				30BC2F542C3FE92000D7A2C9 /* Views */,
+				30BC2F552C3FE92B00D7A2C9 /* Components */,
 				30BC2E992C3DAF3C00D7A2C9 /* Preview Content */,
 			);
 			path = WearHouseApp;
@@ -125,6 +139,34 @@
 				30BC2EB02C3DAF3C00D7A2C9 /* WearHouseAppUITestsLaunchTests.swift */,
 			);
 			path = WearHouseAppUITests;
+			sourceTree = "<group>";
+		};
+		30BC2F542C3FE92000D7A2C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30BC2E952C3DAF3B00D7A2C9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30BC2F552C3FE92B00D7A2C9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30BC2F562C3FE9A900D7A2C9 /* CategoryTile.swift */,
+				30BC2F582C3FED5C00D7A2C9 /* CategoryList.swift */,
+				30BC2F5C2C4113E400D7A2C9 /* ClothRow.swift */,
+				30BC2F5E2C41149100D7A2C9 /* ClothList.swift */,
+				30BC2F602C41BF0E00D7A2C9 /* ClothDetail.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30E714C52C51836C00B48C2D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				30E714C62C51838500B48C2D /* FavoriteButton.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BC2F5F2C41149100D7A2C9 /* ClothList.swift in Sources */,
 				30BC2E962C3DAF3B00D7A2C9 /* ContentView.swift in Sources */,
+				30BC2F5D2C4113E400D7A2C9 /* ClothRow.swift in Sources */,
+				30E714C72C51838500B48C2D /* FavoriteButton.swift in Sources */,
 				30BC2E942C3DAF3B00D7A2C9 /* WearHouseAppApp.swift in Sources */,
+				30BC2F572C3FE9A900D7A2C9 /* CategoryTile.swift in Sources */,
+				30BC2F612C41BF0E00D7A2C9 /* ClothDetail.swift in Sources */,
+				30BC2F592C3FED5C00D7A2C9 /* CategoryList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
